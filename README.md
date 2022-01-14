@@ -14,6 +14,18 @@ This is how the Advanced power settings menu looks after running this script:
 ## Warranty
 THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
+## Run the script
+Open Windows Terminal as Admin
+
+```
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://bit.ly/RestorePowerOptions'))
+```
+
+![image](https://user-images.githubusercontent.com/54220235/149538345-5ebc75f4-cbe0-4604-aa14-0a0675e2405a.png)
+
+Press enter to run.
+
 ***
 
-Code used here was picked from several webpages of [tenforums.com](https://tenforums.com).
+# Credits
+This script re-uses code from [tenforums.com](https://tenforums.com).
