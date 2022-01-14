@@ -8,7 +8,7 @@ This is how the Advanced power settings menu looks after running this script:
 
 ## Notes:
  - This script is tested on ASUS ROG Zephyrus G14 GA401 running Windows 10 Pro OS Build 19044.1466 (General Availability channel).
- - This script **should** work in Windows 11, but hasn't been tested yet. If you have run it in Windows 11, you can report its status (successful/failed) by creating an issue in this repo.
+ - This script **should** work in Windows 11, but hasn't been tested yet. If you have run it in Windows 11, you can report its status (successful/failed) by submitting an issue in this repo.
  - This script is mostly targeted at OEM devices such as notebooks, tablets, etc. 
 
 ## Warranty
@@ -25,6 +25,8 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://bit
 
 Press enter to run.
 
+## Some power options still missing?
+If you believe that some power options are still missing, please submit a report by creating an issue in this repo.
 ***
 
 # Credits
