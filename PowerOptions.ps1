@@ -24,6 +24,8 @@
 # Add when playing video
  REG ADD HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\9596FB26-9850-41fd-AC3E-F7C3C00AFD4B\34C7B99F-9A6D-4b3c-8DC7-B6693B78CEF4 /v Attributes /t REG_DWORD /d 2 /f | Out-Null
 
+# Add Processor performance boost mode
+ REG ADD HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\be337238-0d82-4146-a960-4f3749d470c7 /v Attributes /t REG_DWORD /d 2 /f | Out-Null
 
 Write-Host "Advanced power options were restored."
 Write-Host "Re-open Advanced power settings menu to see changes."
