@@ -3,6 +3,9 @@
 # Add Turn off Hard Disk option
  REG ADD HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\6738e2c4-e8a5-4a42-b16a-e040e769756e /v Attributes /t REG_DWORD /d 2 /f | Out-Null
 
+# Add Network connectivity in Standby mode
+REG ADD HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\F15576E8-98B7-4186-B944-EAFA664402D9 /v Attributes /t REG_DWORD /d 2 /f
+
 # Add Wireless Adapter Settings
  REG ADD HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\19cbb8fa-5279-450e-9fac-8a3d5fedd0c1\12bbebe6-58d6-4636-95bb-3217ef867c1a /v Attributes /t REG_DWORD /d 2 /f | Out-Null
 
