@@ -7,8 +7,8 @@ This is how the Advanced power settings menu looks after running this script:
 
 
 ## Notes:
- - This script works and is tested on Windows 10 Build 19044 and Windows 11 Build 22623. It works in all in-service Windows 11 and 10 versions.
- - This script is targeted fpr OEM devices such as notebooks, tablets, etc. 
+ - This script was evaluated in Windows 10 Build 19044 and Windows 11 Build 22623. It should work in all in-service Windows 11 and 10 versions.
+ - This script is targeted towards OEM devices such as notebooks, tablets, etc. 
 
 ## Warranty
 THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
