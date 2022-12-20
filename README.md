@@ -7,9 +7,8 @@ This is how the Advanced power settings menu looks after running this script:
 
 
 ## Notes:
- - This script is tested on ASUS ROG Zephyrus G14 GA401 running Windows 10 Pro OS Build 19044.1466 (General Availability channel).
- - This script **should** work in Windows 11, but hasn't been tested yet. If you have run it in Windows 11, you can report its status (successful/failed) by submitting an issue in this repo.
- - This script is mostly targeted at OEM devices such as notebooks, tablets, etc. 
+ - This script works and is tested on Windows 10 Build 19044 and Windows 11 Build 22623. It works in all in-service Windows 11 and 10 versions.
+ - This script is targeted fpr OEM devices such as notebooks, tablets, etc. 
 
 ## Warranty
 THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
